@@ -1,70 +1,102 @@
-🏮 Volta ao mundo - China
+# 🌏 Projeto Web – Tema China
 
-Uma jornada digital imersiva pela cultura, natureza, história e pontos turísticos da Terra do Dragão.
+## 📌 Sobre o projeto
 
-📖 Sobre o Projeto
+Este projeto foi desenvolvido como atividade prática da disciplina de **Desenvolvimento Web**, com o objetivo de aplicar os conhecimentos adquiridos em aula utilizando o framework **Bootstrap**.
 
-    Este site foi desenvolvido com o objetivo de apresentar a riqueza milenar da China. O projeto combina um design moderno e responsivo com conteúdos educativos sobre as dinastias históricas, as paisagens naturais de tirar o fôlego e a vibrante cultura contemporânea.
+O site tem como temática a **China**, apresentando informações relevantes sobre sua cultura, história, culinária e outros aspectos importantes.
 
-    O foco principal foi criar uma experiência de utilizador (UX) fluida, onde o visitante pode navegar entre o passado imperial e as metrópoles futuristas num clique.
+---
 
-🚀 Funcionalidades Principais
+## 🎯 Objetivo
 
-    📜 Cronologia Histórica: Um resumo visual das principais dinastias e marcos da era moderna.
+Criar uma página web responsiva utilizando Bootstrap, contendo diferentes seções informativas sobre a China, com foco em organização visual e boas práticas de desenvolvimento front-end.
 
-    🏞️ Galeria de Natureza: Secção dedicada às montanhas, rios e santuários de pandas.
+---
 
-    🏮 Módulo Cultural: Exploração de tradições, gastronomia, festivais e caligrafia.
+## 🧩 Funcionalidades
 
-    📍 Guia Turístico: Mapa e informações sobre os destinos imperdíveis (Xangai, Pequim, Xi'an).
+* Página inicial (Home) responsiva
+* Menu de navegação (Navbar)
+* Seções organizadas por tema
+* Layout adaptável para diferentes dispositivos
+* Uso de componentes do Bootstrap
 
-    📱 Responsividade Total: Design adaptado para telemóveis, tablets e desktop.
+---
 
-🛠️ Tecnologias Utilizadas
+## 🏮 Conteúdo do site
 
-    Para este projeto, foram aplicadas as seguintes tecnologias:
+O site aborda os seguintes tópicos:
 
-        HTML5 & CSS3: Semântica estrutural e estilização personalizada.
+* 🎎 **Cultura**
+  Tradições, costumes e elementos culturais chineses.
 
-        JavaScript (ES6+): Lógica de navegação, animações de scroll e filtros de galeria.
+* 🍜 **Culinária**
+  Pratos típicos e características da gastronomia.
 
-        Bootstrap 5: Sistema de grelha (Grid) e componentes responsivos.
+* 🏯 **Pontos Turísticos**
+  Principais atrações da China.
 
-        Google Fonts: Utilização de tipografia que remete à elegância oriental.
+* 📜 **História**
+  Breve contexto histórico do país.
 
-📥 Como Instalar e Correr o Projeto
+* 🧠 **Curiosidades**
+  Informações interessantes sobre a China.
 
-Siga os passos abaixo para ter uma cópia do projeto a correr localmente na sua máquina:
+---
 
-Clone o repositório:
+## 🎨 Paleta de cores
 
-bash```
-git clone [https://github.com/buenoPedro7070/voltaAoMundoChina.git]
-```
+A identidade visual do site foi inspirada nas cores tradicionais chinesas:
 
-Aceda à pasta do projeto:
+* Vermelho (#C8102E) → sorte e prosperidade
+* Dourado (#D4AF37) → riqueza e poder
+* Preto (#1C1C1C) → contraste
+* Branco (#F8F5F0) → fundo
+* Cinza (#6C757D) → textos secundários
 
-bash```
-cd voltaAoMundoChina
-```
+---
 
-Abra o ficheiro no navegador:
-Basta clicar duas vezes em index.html ou utilizar uma extensão como o Live Server no VS Code.
+## 🛠️ Tecnologias utilizadas
 
-🎨 Design e Estética
+* HTML5
+* CSS3
+* Bootstrap 5
 
-O projeto utiliza uma paleta de cores baseada na simbologia chinesa:
+---
 
-Vermelho (#DE2910): Representando sorte e celebração.
+## 📱 Responsividade
 
-Dourado (#FFDE00): Representando nobreza e história.
+O site foi desenvolvido com foco em responsividade, garantindo uma boa experiência em:
 
-Preto/Cinza Profundo: Para legibilidade e elegância moderna.
+* Computadores
+* Tablets
+* Smartphones
 
-✒️ Autor
+---
 
-Projeto desenvolvido por Pedro Bueno.
+## 🚀 Como executar o projeto
 
-GitHub: @buenoPedro7070
+1. Baixe ou clone este repositório
+2. Abra o arquivo `index.html` em qualquer navegador
+3. Navegue pelas seções do site
 
-⭐ Se este projeto o ajudou a conhecer melhor a China, deixe uma estrela no repositório!
+---
+
+## 📚 Aprendizados
+
+Durante o desenvolvimento deste projeto, foram praticados:
+
+* Estruturação de páginas HTML
+* Uso do framework Bootstrap
+* Organização de conteúdo em seções
+* Aplicação de estilos e identidade visual
+* Criação de layouts responsivos
+
+---
+
+## 👨‍💻 Autor
+
+Projeto desenvolvido como atividade acadêmica para a disciplina de Desenvolvimento Web pelo aluno Pedro Bueno
+
+---

@@ -1,0 +1,6 @@
+Paleta de cores
+    Vermelho: C8102E
+    Dourado: D4AF37
+    Preto: 1C1C1C
+    Branco: F8F5F0
+    Cinza: 6C757D

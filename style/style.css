@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-.st-contaier{
+body{
     color: #1C1C1C;
     font-family: "Montserrat", sans-serif;
 }
+
 .bg-red{
     background-color: #C8102E;
 }
@@ -11,4 +12,29 @@
 .st-btn-prim{
     background-color: #C8102E;
     color: #D4AF37;
+}
+
+.fade-text {
+  color: #D4AF37;
+  font-weight: bold;
+  opacity: 1;
+  transition: opacity 0.8s ease-in-out, transform 0.8s ease-in-out;
+}
+
+.fade-out {
+  opacity: 0;
+  transform: translateY(-10px);
+}
+
+.fade-in {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.main {
+  background-image: url('../assets/China-Great-Wall-mountains-fog-history-architecture-dawn_1920x1080.jpg');
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }

@@ -1,21 +1,47 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+:root {
+  --red: #C8102E;
+  --gold: #D4AF37;
+  --black: #1C1C1C;
+  --white: #F8F5F0;
+  --gray: #6C757D;
+}
+
 body{
-    color: #1C1C1C;
+    color: var(--black);
     font-family: "Montserrat", sans-serif;
+    background-color: var(--white);
+}
+
+p{
+  text-align: justify;
+}
+
+.btn-st{
+  font-weight: 500;
+}
+.btn-st:hover{
+  transform: '';
+  font-weight: 700;
+
+}
+
+.tex-white{
+  color: var(--white);
 }
 
 .bg-red{
-    background-color: #C8102E;
+    background-color: var(--red);
 }
 
 .st-btn-prim{
-    background-color: #C8102E;
-    color: #D4AF37;
+    background-color: var(--red);
+    color: var(--gold);
 }
 
 .fade-text {
-  color: #D4AF37;
+  color: var(--gold);
   font-weight: bold;
   opacity: 1;
   transition: opacity 0.8s ease-in-out, transform 0.8s ease-in-out;
@@ -37,4 +63,21 @@ body{
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+.sec{
+  height: 70vh;
+}
+
+.card-st{
+  background-color: none;
+}
+
+.foot{
+  color: var(--white);
+}
+
+.sanfona{
+  background-color: var(--gray);
+  color: var(--white);
 }

@@ -40,6 +40,11 @@ p{
     color: var(--gold);
 }
 
+.st-btn-accor{
+    background-color: var(--red);
+    color: var(--white);
+}
+
 .fade-text {
   color: var(--gold);
   font-weight: bold;
@@ -80,4 +85,15 @@ p{
 .sanfona{
   background-color: var(--gray);
   color: var(--white);
+}
+
+.sanfona:focus{
+  background-color: var(--red);
+  color: var(--white);
+  border: #6C757D;
+}
+
+.img-sanfona{
+  width: 400px;
+  height: 350px;
 }

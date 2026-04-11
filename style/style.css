@@ -97,3 +97,16 @@ p{
   width: 400px;
   height: 350px;
 }
+
+.con-carrosel{
+  height: 40vh;
+}
+
+.img{
+  border: #1C1C1C 3px;
+  border-radius: 10px;
+}
+
+.title-pg{
+  color: var(--red);
+}

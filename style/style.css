@@ -22,7 +22,7 @@ p{
   font-weight: 500;
 }
 .btn-st:hover{
-  transform: '';
+  transition: 0.3s;
   font-weight: 700;
 
 }

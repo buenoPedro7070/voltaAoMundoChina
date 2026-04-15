@@ -46,7 +46,7 @@ p{
 }
 
 .fade-text {
-  color: var(--gold);
+  color: var(--red);
   font-weight: bold;
   opacity: 1;
   transition: opacity 0.8s ease-in-out, transform 0.8s ease-in-out;
@@ -70,8 +70,9 @@ p{
   background-repeat: no-repeat;
 }
 
-.sec{
-  height: 70vh;
+.sec {
+    padding: 60px 0;
+    min-height: auto; 
 }
 
 .card-st{

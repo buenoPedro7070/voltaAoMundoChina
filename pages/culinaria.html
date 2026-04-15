@@ -11,16 +11,16 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-red tex-white">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-red">
         <div class="container">
-            <a class="navbar-brand" href="../index.html">CHINA</a>
+            <a class="navbar-brand fw-bold" href="../index.html">CHINA</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="menu">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item"><a class="nav-link" href="cultura.html">Cultura</a></li>
-                    <li class="nav-item"><a class="nav-link" href="culinaria.html">Culinária</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="culinaria.html">Culinária</a></li>
                     <li class="nav-item"><a class="nav-link" href="turimos.html">Turismo</a></li>
                     <li class="nav-item"><a class="nav-link" href="historia.html">História</a></li>
                     <li class="nav-item"><a class="nav-link" href="geral.html">Informações gerais</a></li>
@@ -28,138 +28,122 @@
             </div>
         </div>
     </nav>
-    <h1 class="text-center fw-bold mt-2 title-pg">A Culinária da China</h1>
-    <div class="container">
-        <div class="row mt-2">
-            <!--Carrosel-->
-            <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="../assets/culinariacarrossel1.png" class="d-block w-100 img-fluid" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="../assets/culturacarrossel2.png" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="../assets/culturacarrosel3.png" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="../assets/culturacarrosel4.png" class="d-block w-100" alt="...">
-                    </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
-            </div>
-        </div>
 
-        <!--Conteúdo-->
-        <div class="row">
+    <header class="container mt-4 mb-3">
+        <h1 class="text-center fw-bold title-pg">A Culinária da China</h1>
+    </header>
+
+    <main class="container">
+        <section class="row">
             <div class="col-12">
-                <h2 class="text-center mt-5">Um pouco sobre</h2>
-                <p>
+                <div id="culinariaCarousel" class="carousel slide shadow-sm" data-bs-ride="carousel">
+                    <div class="carousel-inner rounded">
+                        <div class="carousel-item active">
+                            <img src="../assets/culinariacarrossel1.png" class="d-block w-100" alt="Culinária 1">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../assets/culinariacarrossel2.png" class="d-block w-100" alt="Culinária 2">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../assets/culinariacarrosel3.png" class="d-block w-100" alt="Culinária 3">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../assets/culinariacarrosel4.png" class="d-block w-100" alt="Culinária 4">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#culinariaCarousel"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Anterior</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#culinariaCarousel"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Próximo</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section class="row py-5">
+            <div class="col-12 text-center text-md-start">
+                <h2 class="mb-4">Um pouco sobre</h2>
+                <p class="lead">
                     A culinária chinesa é uma das mais ricas e diversificadas do mundo, resultado de milhares de anos de
-                    história
-                    e da variedade geográfica do país. Cada região desenvolveu seus próprios sabores e técnicas, criando
-                    estilos
-                    distintos como o cantonês, o sichuanês e o pekinês. Os pratos chineses valorizam o equilíbrio entre
-                    aroma,
-                    sabor, textura e aparência, sendo cuidadosamente preparados para proporcionar uma experiência
-                    completa.
-
-                    Além disso, a alimentação na China está profundamente ligada à cultura e à filosofia, especialmente
-                    à busca
-                    pelo equilíbrio entre os alimentos, como o conceito de yin e yang. Ingredientes frescos, cortes
-                    precisos e
-                    métodos de preparo rápidos, como o salteado, são características marcantes. As refeições também
-                    possuem um
-                    forte aspecto social, sendo tradicionalmente compartilhadas entre familiares e amigos em grandes
-                    mesas.
+                    história e da variedade geográfica do país. Cada região desenvolveu seus próprios sabores e
+                    técnicas, criando estilos distintos como o cantonês, o sichuanês e o pekinês.
+                </p>
+                <p class="lead">
+                    Os pratos chineses valorizam o equilíbrio entre aroma, sabor, textura e aparência. Além disso, a
+                    alimentação está profundamente ligada ao conceito de <strong>yin e yang</strong>. Métodos de preparo
+                    rápidos e cortes precisos são marcas registradas de uma cozinha que entende a refeição como um
+                    momento de união social e preservação de saúde.
                 </p>
             </div>
-        </div>
+        </section>
 
-        <div class="row">
-            <div class="col-6">
-                <h2>Tradições e costumes</h2>
-                <p>
-                    As tradições da culinária chinesa estão fortemente ligadas à convivência social e ao simbolismo dos
-                    alimentos.
-                    Durante festivais e celebrações, pratos específicos são preparados por seu significado, como o
-                    peixe, que
-                    representa prosperidade, e o macarrão, associado à longevidade. O uso dos hashis também faz parte da
-                    tradição,
-                    refletindo a forma cultural de se alimentar e compartilhar refeições.
+        <section class="row g-4 pb-5">
+            <div class="col-12 col-md-6">
+                <div class="p-4 bg-light rounded h-100 shadow-sm">
+                    <h2 class="h3">Tradições e costumes</h2>
+                    <p>
+                        As tradições culinárias estão ligadas à convivência e ao simbolismo. Durante festivais, pratos
+                        como o peixe representam prosperidade, enquanto o macarrão simboliza longevidade.
+                    </p>
+                    <p>
+                        O uso de hashis e o serviço em porções coletivas incentivam a partilha. O respeito à hierarquia
+                        também é fundamental, onde os mais velhos têm prioridade à mesa, tornando a refeição um ato de
+                        respeito e preservação cultural.
+                    </p>
+                </div>
+            </div>
+            <div class="col-12 col-md-6">
+                <div class="p-4 bg-light rounded h-100 shadow-sm">
+                    <h2 class="h3">Pratos típicos</h2>
+                    <p>
+                        Destacam-se o famoso <strong>Pato de Pequim</strong>, com sua pele crocante, e o <strong>Dim
+                            Sum</strong>, seleção de pequenos pratos servidos com chá. Arroz frito e noodles são bases
+                        populares consumidas em todo o mundo.
+                    </p>
+                    <p>
+                        A região de Sichuan contribui com sabores picantes intensos, enquanto dumplings e pratos à base
+                        de tofu completam o cardápio diário, refletindo a criatividade técnica infinita da gastronomia
+                        chinesa.
+                    </p>
+                </div>
+            </div>
+        </section>
 
-                    Além disso, as refeições costumam ser servidas em porções coletivas, incentivando a partilha e o
-                    convívio.
-                    O respeito à hierarquia familiar também é observado à mesa, onde os mais velhos geralmente têm
-                    prioridade.
-                    Esses costumes mostram que, na China, comer vai muito além da nutrição, sendo um importante momento
-                    de
-                    interação social e preservação cultural.
+        <section class="row align-items-center py-5 border-top">
+            <div class="col-12 col-md-7 order-2 order-md-1">
+                <h2 class="mb-4">Ingredientes e modo de preparo</h2>
+                <p class="lead">
+                    A base da cozinha inclui vegetais frescos, arroz, carnes, frutos do mar e molhos essenciais como o
+                    de soja e óleo de gergelim. A harmonia entre o doce, salgado, amargo e picante é o objetivo final de
+                    cada chef.
+                </p>
+                <p class="lead"
+                
+                
+                >
+                    Técnicas como o salteado rápido em <strong>wok</strong>, o cozimento a vapor e a fritura leve
+                    preservam os nutrientes e o frescor. O corte preciso dos alimentos não é apenas estético, mas
+                    garante um cozimento uniforme e rápido, refletindo a eficiência milenar da tradição culinária.
                 </p>
             </div>
-            <div class="col-6">
-                <h2>Pratos típicos</h2>
-                <p>
-                    A culinária chinesa apresenta uma grande variedade de pratos conhecidos mundialmente. Entre eles,
-                    destaca-se
-                    o pato de Pequim, famoso por sua pele crocante e sabor marcante, e o dim sum, uma seleção de
-                    pequenos pratos
-                    servidos tradicionalmente com chá. O arroz frito e os noodles também são muito populares, preparados
-                    com
-                    diferentes combinações de carnes, vegetais e molhos.
-
-                    Outro destaque são os pratos da região de Sichuan, conhecidos pelo sabor picante e uso intenso de
-                    especiarias.
-                    Além disso, sopas, dumplings e pratos à base de tofu fazem parte do dia a dia alimentar. Essa
-                    diversidade
-                    reflete a riqueza cultural da China e a criatividade na combinação de ingredientes e técnicas
-                    culinárias.
-                </p>
+            <div class="col-12 col-md-5 order-1 order-md-2 mb-4 mb-md-0 text-center">
+                <img src="../assets/culinariaimg.png" class="img-fluid rounded shadow-lg w-100"
+                    alt="Culinária Chinesa Preparo">
             </div>
-        </div>
+        </section>
+    </main>
 
-        <div class="row">
-            <div class="col-7">
-                <h2>Ingredientes e modo de preparo</h2>
-                <p>
-                    Os ingredientes utilizados na culinária chinesa são variados e incluem vegetais frescos, arroz,
-                    carnes,
-                    frutos do mar e uma ampla gama de temperos e molhos, como o molho de soja e o óleo de gergelim. A
-                    combinação
-                    desses elementos é feita de forma equilibrada, buscando harmonizar sabores doces, salgados, amargos
-                    e picantes.
-
-                    O modo de preparo também é uma característica marcante, com técnicas como o salteado rápido em wok,
-                    o vapor
-                    e a fritura leve, que preservam o sabor e os nutrientes dos alimentos. O corte dos ingredientes é
-                    feito de
-                    maneira precisa, facilitando o cozimento uniforme. Esses métodos refletem a eficiência e a tradição
-                    da
-                    culinária chinesa, que valoriza tanto o sabor quanto a apresentação dos pratos.
-                </p>
-            </div>
-            <div class="col-5">
-            <img src="../assets/culinariaimg.png" class="img-fluid rounded shadow" alt="Culinária Chinesa">
+    <footer class="bg-red text-center p-4 mt-5">
+        <div class="container">
+            <p class="mb-0 text-white">&copy; 2026 Volta Ao mundo - China. Por Pedro Henrique Nunes Bueno</p>
         </div>
-        </div>
-        
-    </div>
-
-    </div>
-    <!-- Footer -->
-    <footer class="bg-red text-center p-3 foot mt-5">
-        <p>&copy; 2026 Volta Ao mundo - China. Por Pedro Henrique Nunes Bueno</p>
     </footer>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 

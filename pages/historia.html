@@ -11,9 +11,9 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-red tex-white">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-red">
         <div class="container">
-            <a class="navbar-brand" href="../index.html">CHINA</a>
+            <a class="navbar-brand fw-bold" href="../index.html">CHINA</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -22,140 +22,83 @@
                     <li class="nav-item"><a class="nav-link" href="cultura.html">Cultura</a></li>
                     <li class="nav-item"><a class="nav-link" href="culinaria.html">Culinária</a></li>
                     <li class="nav-item"><a class="nav-link" href="turimos.html">Turismo</a></li>
-                    <li class="nav-item"><a class="nav-link" href="historia.html">História</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="historia.html">História</a></li>
                     <li class="nav-item"><a class="nav-link" href="geral.html">Informações gerais</a></li>
                 </ul>
             </div>
         </div>
     </nav>
-    <h1 class="text-center fw-bold mt-2 title-pg">A incrível história chinesa</h1>
-    <div class="container">
-        <div class="row mt-2">
-            <!--Carrosel-->
-            <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="../assets/culturacarrosel1.png" class="d-block w-100 img-fluid" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="../assets/culturacarrossel2.png" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="../assets/culturacarrosel3.png" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="../assets/culturacarrosel4.png" class="d-block w-100" alt="...">
+
+    <header class="container mt-4 mb-3">
+        <h1 class="text-center fw-bold title-pg">A incrível história chinesa</h1>
+    </header>
+
+    <main class="container">
+        <section class="row">
+            <div class="col-12">
+                <div id="historiaCarousel" class="carousel slide shadow-sm" data-bs-ride="carousel">
+                    <div class="carousel-inner rounded">
+                        <div class="carousel-item active">
+                            <img src="../assets/culturacarrosel1.png" class="d-block w-100" alt="História 1">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../assets/culturacarrossel2.png" class="d-block w-100" alt="História 2">
+                        </div>
                     </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
             </div>
-        </div>
+        </section>
 
-        <!--Conteúdo-->
-        <div class="row">
-            <div class="col-12">
-                <h2 class="text-center mt-5">Um pouco sobre</h2>
-                <p>
-                    A história da China é uma das mais antigas e contínuas do mundo, com registros que remontam a
-                    milhares de
-                    anos. Ao longo desse período, o país foi governado por diversas dinastias que contribuíram para a
-                    formação
-                    de sua identidade cultural, política e social. Cada dinastia trouxe avanços importantes, como o
-                    desenvolvimento da escrita, da agricultura e de grandes obras de engenharia.
-
-                    Além disso, a China foi responsável por importantes invenções que impactaram o mundo, como o papel,
-                    a pólvora
-                    e a bússola. A evolução histórica do país foi marcada por períodos de prosperidade e também por
-                    momentos de
-                    conflito e transformação. Essa longa trajetória contribuiu para a construção de uma civilização rica
-                    e
-                    influente, que permanece relevante até os dias atuais.
+        <section class="row py-5">
+            <div class="col-12 text-center text-md-start">
+                <h2 class="mb-4">Um pouco sobre</h2>
+                <p class="lead">
+                    A história da China é uma das mais antigas e contínuas do mundo, com registros milenares. Governado
+                    por dinastias que moldaram sua identidade, o país trouxe ao mundo invenções como o papel, a pólvora
+                    e a bússola.
                 </p>
             </div>
-        </div>
+        </section>
 
-        <div class="row">
-            <div class="col-6">
-                <h2>Dinastias e impérios</h2>
-                <p>
-                    As dinastias desempenharam um papel fundamental na organização da China ao longo da história. Entre
-                    as mais
-                    importantes, destacam-se as dinastias Qin, Han, Tang e Ming, cada uma responsável por avanços
-                    significativos
-                    na administração, cultura e expansão territorial. A dinastia Qin, por exemplo, unificou o país e
-                    iniciou a
-                    construção da Grande Muralha.
+        <section class="row g-4 pb-5">
+            <div class="col-12 col-md-6">
+                <div class="p-4 bg-light rounded h-100 shadow-sm">
+                    <h2 class="h3">Dinastias e impérios</h2>
+                    <p>
+                        Dinastias como Qin, Han, Tang e Ming foram fundamentais. A Qin unificou o país e iniciou a
+                        Grande Muralha, enquanto a Han consolidou a cultura e a Tang floresceu nas artes e no comércio.
+                    </p>
+                </div>
+            </div>
+            <div class="col-12 col-md-6">
+                <div class="p-4 bg-light rounded h-100 shadow-sm">
+                    <h2 class="h3">Transformações históricas</h2>
+                    <p>
+                        A queda do sistema imperial no século XX e a criação da República Popular da China em 1949
+                        marcaram novas fases de modernização e crescimento acelerado para a nação.
+                    </p>
+                </div>
+            </div>
+        </section>
 
-                    Já a dinastia Han consolidou o desenvolvimento cultural e econômico, enquanto a dinastia Tang foi
-                    marcada por
-                    grande florescimento artístico e comercial. A dinastia Ming, por sua vez, ficou conhecida pela
-                    construção de
-                    importantes obras arquitetônicas. Esses períodos ajudaram a moldar a estrutura do Estado chinês e
-                    sua
-                    influência ao longo dos séculos.
+        <section class="row align-items-center py-5 border-top">
+            <div class="col-12 col-md-7 order-2 order-md-1">
+                <h2 class="mb-4">China contemporânea</h2>
+                <p class="lead">
+                    A China atual combina sua herança milenar com inovação de ponta. O equilíbrio entre o antigo e o
+                    moderno é o aspecto mais marcante de sua identidade global hoje.
                 </p>
             </div>
-            <div class="col-6">
-                <h2>Transformações históricas</h2>
-                <p>
-                    Ao longo do tempo, a China passou por diversas transformações que alteraram profundamente sua
-                    estrutura
-                    política e social. A queda do sistema imperial no início do século XX marcou o fim de uma era e o
-                    início de
-                    um novo período de mudanças. Esse processo incluiu conflitos internos e influências externas que
-                    impactaram o
-                    desenvolvimento do país.
-
-                    Posteriormente, a criação da República Popular da China, em 1949, representou uma nova fase na
-                    história
-                    nacional, com mudanças significativas na organização política e econômica. Desde então, o país tem
-                    passado
-                    por um processo contínuo de modernização e crescimento, consolidando-se como uma das principais
-                    potências
-                    mundiais.
-                </p>
+            <div class="col-12 col-md-5 order-1 order-md-2 mb-4 mb-md-0 text-center">
+                <img src="../assets/culturaimg.png" class="img-fluid rounded shadow-lg w-100" alt="China Histórica">
             </div>
+        </section>
+    </main>
+
+    <footer class="bg-red text-center p-4 mt-5">
+        <div class="container">
+            <p class="mb-0 text-white">&copy; 2026 Volta Ao mundo - China. Por Pedro Henrique Nunes Bueno</p>
         </div>
-
-        <div class="row">
-            <div class="col-7">
-                <h2>China contemporânea</h2>
-                <p>
-                    A China contemporânea é resultado de um longo processo histórico que combina tradição e modernidade.
-                    Nas
-                    últimas décadas, o país passou por um rápido desenvolvimento econômico, tornando-se um dos
-                    principais atores
-                    do cenário global. O crescimento das cidades, a expansão industrial e o avanço tecnológico são
-                    características
-                    marcantes desse período.
-
-                    Ao mesmo tempo, elementos da cultura tradicional continuam presentes na sociedade, evidenciando a
-                    forte
-                    ligação com o passado. A China atual reflete essa dualidade, unindo sua herança histórica com a
-                    busca por
-                    inovação e progresso. Esse equilíbrio entre antigo e moderno é um dos aspectos mais marcantes de sua
-                    identidade.
-                </p>
-            </div>
-            <div class="col-5">
-                <img src="../assets/culturaimg.png" class="img-fluid rounded shadow" alt="">
-            </div>
-        </div>
-
-
-    </div>
-    <!-- Footer -->
-    <footer class="bg-red text-center p-3 foot mt-5">
-        <p>&copy; 2026 Volta Ao mundo - China. Por Pedro Henrique Nunes Bueno</p>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
